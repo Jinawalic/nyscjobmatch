@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo.PNG";
 
 const Navbar: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
